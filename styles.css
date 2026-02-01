@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#name {
+    color: #8E735B;
+}
+
+#text {
+    color: #CCCCCC;
+}
+
+#text:hover {
+    color: #8E735B;
+}
+
+#white-text {
+    color: #CCCCCC;
+}
+
+#grey-text {
+    color: #3a3a3a;
+}
+
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assests/images/Coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+#About-us {
+    flex: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assests/images/coffee5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#Footer {
+    margin-top: auto;
+}
+
+#btn-full {
+    background-color: #8E735B;
+    color: #FFFFFF;
+    border: 2px solid #8E735B;
+}
+
+#btn-full:hover {
+    background-color: transparent;
+    color: #8E735B;
+    border: 2px solid #8E735B;
+}
+
+#btn-outline {
+    background-color: transparent;
+    color: #8E735B;
+    border: 2px solid #8E735B;
+}
+
+#btn-outline:hover {
+    background-color: #8E735B;
+    color: #FFFFFF;
+    border: 2px solid #8E735B;
+}
+
+.custom-card {
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+@media (min-width: 1025px) {
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .custom-card-wrapper {
+        width: 100% !important; 
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px !important; 
+    }
+
+    .card-style {
+        width: 500px !important;   
+        height: 650px !important;  
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .card-img-top {
+        height: 400px !important; 
+        width: 100%;
+        object-fit: cover;
+        background-color: #eee;
+    }
+
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 2.2rem !important;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .card-text {
+        font-size: 1.4rem !important;
+        line-height: 1.6;
+    }
+
+    #About-us {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    #About-us h2 {
+        font-size: 3rem !important;
+    }
+    
+    #About-us p, #About-us a {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .custom-card-wrapper {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .card-title {
+        font-size: 1.8rem !important;
+        font-weight: 700;
+    }
+
+    .card-text {
+        font-size: 1.2rem !important;
+        line-height: 1.5;
+    }
+}

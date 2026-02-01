@@ -1,0 +1,22 @@
+The Project: "The Local Professional" (3-4 Pages)
+This project feels "big" but is very easy to build because the header and footer stay exactly the same on every page.
+
+1. The Sitemap
+index.html (Home): Big hero image, a "Welcome" section, and 3 cards showing top services.
+
+services.html: Use CSS Grid to create a pricing menu or a list of detailed service descriptions.
+
+about.html: A two-column layout (Image + Text) explaining the "History" of the business.
+
+contact.html: A simple HTML form (<form>) with input fields and a Bootstrap button.
+
+The "Speed" Strategy: Components & Templates
+To get this done quickly, use the Master Layout method:
+
+Build the Header & Footer first: Create your Navbar (Bootstrap navbar-expand-lg) and your Footer.
+
+The "Shell" Method: Save that file as template.html.
+
+Multiply: Copy template.html and rename the copies to index.html, about.html, etc. Now, you only have to change the middle content of each page!
+
+Active Links: On the about.html page, manually add the .active class to the "About" link in your navbar so the user knows where they are.
